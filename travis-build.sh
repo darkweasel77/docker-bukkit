@@ -26,7 +26,7 @@ test () {
 	fi
 }
 
-if [ $TAG = "latest ]; then
+if [ $TAG = "latest" ]; then
 	build_latest
 else
 	build_tag
