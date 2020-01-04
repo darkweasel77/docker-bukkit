@@ -3,7 +3,7 @@
 set -xe
 
 build_latest () {
-	docker build -t bbriggs/bukkit:latest
+	docker build -t bbriggs/bukkit:latest .
 }
 
 build_tag () {
